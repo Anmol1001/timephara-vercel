@@ -1,5 +1,5 @@
 ---
-import { Image } from "astro:assets";
+import Image from "astro/components/Image.astro";
 import Sinex from "./../../../public/images/sinex_placeholder.jpeg";
 ---
 
@@ -12,8 +12,8 @@ import Sinex from "./../../../public/images/sinex_placeholder.jpeg";
     </h1> -->
     <div class="flex items-center gap-20 justify-between h-full w-full">
       <div class="w-3/5">
-        <img
-          src="./../../../public/images/sinex_placeholder.jpeg"
+        <Image
+          src={Sinex}
           alt={`sinex`}
           class="object-cover w-full opacity-0 new-product-img"
         />
