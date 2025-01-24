@@ -1,11 +1,23 @@
 ---
+import About from '@/components/home/About.astro';
+import SinexProduct from '@/components/home/SinexProduct.astro';
 import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
-
+import '@/styles/globals.css'
+import NewProduct from '@/components/home/NewProduct.astro';
+import FeaturedProduct from '@/components/home/FeaturedProduct.astro';
+import CSR from '@/components/home/CSR.astro';
+import News from '@/components/home/News.astro';
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
 <Layout>
-	<Welcome />
+<Welcome />
+<About />
+<NewProduct />
+<SinexProduct />
+<FeaturedProduct />
+<CSR />
+<News /> 
 </Layout>

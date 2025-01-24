@@ -1,0 +1,23 @@
+---
+import { Image } from "astro:assets";
+import Sinex from "./../../../public/images/sinex_placeholder_2.jpg";
+---
+
+<section class="h-[80vh] w-full" id="sinexProduct">
+  <div
+    id="container"
+    class="w-full flex items-center gap-20 justify-between h-full"
+  >
+    <div class="w-2/5 sinex-details opacity-0">
+      <h4 class="text-6xl font-bold leading-[4.5rem] text-[#B81D8C]">
+        Sinex:<span class="text-black"> Complete Cold Relief</span>
+      </h4>
+      <p class="leading-[2rem]">
+        Sinex Tablet by Time Pharmaceutical is a powerful combination medicine that relieves common cold symptoms like a blocked nose, runny nose, watery eyes, sneezing, and congestion. Formulated for effective and comprehensive care, Sinex helps you feel better quickly and get back to your daily life with ease.
+      </p>
+    </div>
+    <div class="w-3/5">
+      <Image src={Sinex} alt={`sinex`} class="object-cover w-full sinex-image opacity-0" />
+    </div>
+  </div>
+</section>

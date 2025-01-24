@@ -1,0 +1,37 @@
+---
+import { Image } from "astro:assets";
+import Sinex from "./../../../public/images/sinex_placeholder.jpeg";
+---
+
+<section class="w-full my-32" id="newProduct">
+  <div id="container" class="w-full h-full">
+    <!-- <h1
+      class="text-6xl font-bold leading-[4.5rem] flex flex-col justify-center text-center mb-20"
+    >
+      Introducing Our <span class="text-[#B81D8C]">New Tablets</span>
+    </h1> -->
+    <div class="flex items-center gap-20 justify-between h-full w-full">
+      <div class="w-3/5">
+        <img
+          src="./../../../public/images/sinex_placeholder.jpeg"
+          alt={`sinex`}
+          class="object-cover w-full opacity-0 new-product-img"
+        />
+      </div>
+      <div class="w-2/5 opacity-0 new-product-detail">
+        <h4 class="text-6xl font-bold leading-[4.5rem]">
+           New Product: <span class="text-[#B81D8C]">Innovating for Better Health</span>
+        </h4>
+        <p class="leading-[2rem]">
+          Time Pharmaceutical proudly launches its newest medicine, designed
+          with cutting-edge research to deliver superior treatment outcomes.
+          This breakthrough product represents our commitment to improving
+          patient health, enhancing quality of life, and addressing critical
+          medical needs. Experience innovation, reliability, and advanced
+          healthcare solutions with Time Pharmaceutical's latest contribution to
+          medicine.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>

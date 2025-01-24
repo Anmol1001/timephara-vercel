@@ -1,0 +1,40 @@
+---
+import { Image } from "astro:assets";
+import news1 from "./../../../public/images/timepharma/news/csr_1.jpg"
+import news2 from "./../../../public/images/timepharma/news/csr_2.jpg"
+import news3 from "./../../../public/images/timepharma/news/csr_3.jpg"
+---
+
+<section id="news" class="flex h-[80vh] items-center mb-20">
+  <div id="container">
+    <h1 class="text-6xl font-bold text-center pb-16">Time Pharma <span class="text-[#B81D8C]">Insights</span></h1>
+    <div class="grid grid-cols-3 gap-3">
+        <div class="group">
+      <div class="relative overflow-hidden">
+        <Image src={news1} alt={`news1`} class=""/>
+        <div class="absolute inset-0 h-full w-full bg-black bg-opacity-50 transition duration-500 opacity-0 group-hover:opacity-100 cursor-pointer"></div>
+      </div>
+      <p class="text-slate-600 pt-3">Jan 25 <span class="text-[#B81D8C]">|</span> Human Edge Nepal </p>
+      <p class="pt-3 text-xl cursor-pointer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis in nihil molestiae sequi voluptas!</p>
+    </div>
+    <div class="group">
+        <div class="relative overflow-hidden">
+          <Image src={news2} alt={`news2`} class=""/>
+          <div class="absolute inset-0 h-full w-full bg-black bg-opacity-50 transition duration-500 opacity-0 group-hover:opacity-100 cursor-pointer"></div>
+        </div>
+        <p class="text-slate-600 pt-3">Jan 25 <span class="text-[#B81D8C]">|</span> Human Edge Nepal </p>
+      <p class="pt-3 text-xl cursor-pointer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis in nihil molestiae sequi voluptas!</p>
+      </div>
+
+      <div class="group">
+        <div class="relative overflow-hidden">
+          <Image src={news3} alt={`news3`} class=""/>
+          <div class="absolute inset-0 h-full w-full bg-black bg-opacity-50 transition duration-500 opacity-0 group-hover:opacity-100 cursor-pointer"></div>
+        </div>
+        <p class="text-slate-600 pt-3">Jan 25 <span class="text-[#B81D8C]">|</span> Human Edge Nepal </p>
+      <p class="pt-3 text-xl cursor-pointer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis in nihil molestiae sequi voluptas!</p>
+      </div>
+    </div>
+    <span class="flex justify-center mt-8"><a href="" class="transition-all duration-500 bg-[#B81D8C] text-white px-6 py-2 text-xl">More Insights</a></span> 
+  </div>
+</section>

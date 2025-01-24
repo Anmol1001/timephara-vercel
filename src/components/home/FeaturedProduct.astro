@@ -1,0 +1,13 @@
+---
+import {ProductCarousel} from '@/components/react/ProductCarousel' 
+import { Button } from '../ui/button'
+---
+
+<section class=" h-[90vh] flex items-center" id="featureProduct">
+    <div id="container" class="opacity-0 feature-product">
+    <h1 class="text-6xl font-bold text-center pb-32">Featured <span class="text-[#B81D8C]">Product</span></h1>
+    <div class="flex justify-center">
+        <ProductCarousel client:load />
+    </div>
+</div>
+</section>
