@@ -10,14 +10,14 @@ import {
 } from "@/components/ui/carousel"
 
 const productImages = [
-    {source: "./../../public/images/timepharma/product/product1.jpg", alt:"product-1"},
-    {source: "./../../public/images/timepharma/product/product2.jpg", alt:"product-2"},
-    {source: "./../../public/images/timepharma/product/product3.jpg", alt:"product-3"},
-    {source: "./../../public/images/timepharma/product/product4.jpg", alt:"product-4"},
-    {source: "./../../public/images/timepharma/product/product5.jpg", alt:"product-5"},
-    {source: "./../../public/images/timepharma/product/product6.jpeg", alt:"product-6"},
-    {source: "./../../public/images/timepharma/product/product7.png", alt:"product-7"},
-    {source: "./../../public/images/timepharma/product/product8.jpg", alt:"product-8"},
+    {source: "/images/timepharma/product/product1.jpg", alt:"product-1"},
+    {source: "/images/timepharma/product/product2.jpg", alt:"product-2"},
+    {source: "/images/timepharma/product/product3.jpg", alt:"product-3"},
+    {source: "/images/timepharma/product/product4.jpg", alt:"product-4"},
+    {source: "/images/timepharma/product/product5.jpg", alt:"product-5"},
+    {source: "/images/timepharma/product/product6.jpeg", alt:"product-6"},
+    {source: "/images/timepharma/product/product7.png", alt:"product-7"},
+    {source: "/images/timepharma/product/product8.jpg", alt:"product-8"},
 ] 
 
 export function ProductCarousel() {
